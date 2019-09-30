@@ -1,0 +1,56 @@
+body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero {
+  color:#fff;
+  margin-top: 15%;
+  text-align: center;
+  font-size: 50px;
+  /*letter-spacing: .05em;*/
+  line-height: 1.2em;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 2px 2px #000;
+}
+
+.image {
+  height: 300px;
+  width: 500px;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  margin-right: 1rem;
+  margin-top: 5px;
+}
+
+.lead {
+  color:#fff;
+  font-style: italic;
+}
+
+.divider-2 {
+	display: block;
+	width: 600px;
+	height: 2px;
+	margin: 0 auto;
+	border-bottom: 2px solid #fff;
+	/*opacity: 0.5;*/
+}
+
+.nav-link{
+  /*margin-left: 1rem;*/
+  margin-left: 8px;
+}
+
+.nv {
+  font-family: 'Permanent Marker', cursive;
+  /*font-weight: 500;*/
+  font-size: 17px;
+  justify-content: center;
+  margin-left: 65%;
+  spacing: 500px;
+}
