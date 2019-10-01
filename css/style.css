@@ -1,8 +1,7 @@
 body {
-  background: url(../img/bg.jpg) no-repeat center center fixed cover;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
   padding-top: 0;
-
-  background-size: auto;
   justify-content: center;
   text-align: center;
 }
