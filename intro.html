@@ -11,17 +11,25 @@
   <!--Todos los css aplicados arriba del stylesheet original-->
   <link rel="stylesheet" href="css/style.css">
   <title>Por nuestro planeta</title>
+  <style>
+  body {
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+  </style>
 </head>
 <body>
 
   <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark nv" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nv" >
       <!--<a class="navbar-brand" href="#">Navbar</a>-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav my-2 my-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -36,18 +44,62 @@
     </nav>
   <!--/Navbar-->
 
-  <div class="jumbotron jn">
-    <h1 class="display-4">Organizaciones</h1>
-    <p class="lead">Busca organizaciones dentro de la V región</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</br>
+
+  <!--Jumbotron-->
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Organizaciones</h1>
+      <p class="lead font-weight-normal">¡Entérate sobre las organizaciones que hay actualmente ayudando al planeta!</p>
+      <a class="btn btn-outline-secondary" href="#">Ir</a>
+    </div>
+      <div class="product-device box-shadow d-none d-md-block"></div>
+      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
   </div>
+  <!--/Jumbotron-->
+
+<!--Cards-->
+<div class="container">
+<div class="card-deck">
+  <div class="card" style="width: 18rem;">
+    <img src="img/4ocard.png" class="card-img-top" alt="4Ocean">
+    <div class="card-body">
+      <h5 class="card-title">4Ocean</h5>
+      <p class="card-text">4Ocean es una organización que se dedica a reciclar plástico limpiando los océanos</p>
+      <a href="https://4ocean.com/" class="btn btn-primary">Ir a la página oficial</a>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="img/evcard.png" class="card-img-top" alt="EligeVidrio">
+    <div class="card-body">
+      <h5 class="card-title">Elige vidrio</h5>
+      <p class="card-text">Elige Vidrio es una causa ciudadana que busca promover los beneficios que tiene el vidrio, su consumo responsable, y resaltar el impacto positivo que éste tiene en la calidad de vida de las personas.</p>
+      <a href="http://www.eligevidrio.cl/" class="btn btn-primary">Ir a la página oficial</a>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="img/sbcard.png" class="card-img-top" alt="ChaoBombillas">
+    <div class="card-body">
+      <h5 class="card-title">¡Sin bombillas!</h5>
+      <p class="card-text">Una ciudadanía empoderada, responsable y consciente de su entorno puede lograr cambios. Creemos en el poder de las personas. Es por eso que nos sumamos al movimiento mundial contra las bombillas plásticas. #ChaoBombillas</p>
+      <a href="http://www.chaobombillas.cl/" class="btn btn-primary">Ir a la página oficial</a>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+</div>
+<!--/Cards-->
+
+
+
+
 
 <!--
-http://www.eligevidrio.cl/puntos-de-reciclaje/
+
 https://es.greenpeace.org/es/noticias/este-verano-unete-a-una-limpieza-de-costas-y-dinos-que-marcas-encuentras/
-http://www.chaobombillas.cl/
+
 -->
 
 </body>
